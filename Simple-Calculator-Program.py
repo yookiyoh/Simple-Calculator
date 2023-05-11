@@ -19,25 +19,48 @@
 import tkinter as tk   # import tkinter for GUI
 
 # import messagebox for the error message
+
 # define function for arithmetic addition
+
 # define function for arithmetic subtraction
+
 # define function for arithmetic multiplication
+
 # define function for arithmetic division
+
 # define function for clear input
+
 # define function for reiteration
+
 # define function for program exit
+
 # create an instance for tkinter window
+
 # create label for first number
+
 # create textbox for first number input
+
 # create label for second number
+
 # create textbox for second number input
+
 # create label for Result
+
 # display result output
+
 # create button for addition operation
+
 # create button for subtraction operation
+
 # create button for multiplication operation
+
 # create button for division operation
+
 # create button for clear content
+
 # create button for reiteration
+
 # create button for program exit
+
 # insertion of mainloop in running GUI window
+
