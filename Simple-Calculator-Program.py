@@ -103,6 +103,8 @@ labeld = Label(window, text = "", font = ("Tahoma", 14.5, "Bold"), bg = "536878"
 labeld.grid(row = 2, column = 2)
 
 # create button for addition operation
+button_add = Button(window, text = "Add", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = addition_num)
+button_add.grid(row = 3, column = 1, padx= 15, pady = 5)
 
 # create button for subtraction operation
 
