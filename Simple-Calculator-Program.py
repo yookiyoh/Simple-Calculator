@@ -131,4 +131,4 @@ button_exit = Button(window, text = "Exit", width = 10.5, font = ("Helvetica", 1
 button_exit.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # insertion of mainloop in running GUI window
-
+window.mainloop()
