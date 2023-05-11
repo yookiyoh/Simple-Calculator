@@ -115,6 +115,8 @@ button_mul = Button(window, text = "Multiply", width = 10.5, font = ("Futura", 1
 button_mul.grid(row = 4, column = 1, padx = 5, pady = 5)
 
 # create button for division operation
+button_div = Button(window, text = "Divide", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = division_num)
+button_div.grid(row = 4, column = 2, padx = 5, pady = 5)
 
 # create button for clear content
 
