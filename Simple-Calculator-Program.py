@@ -96,7 +96,7 @@ num2.grid(row = 1, column = 2)
 
 # create label for Result
 labelr = Label(window, text = "Result: ", font = ("Stylus", 15, "Bold"), bg = "536878", fg = "F0FFFF")
-labelr.grid(row = 2, column = 2)
+labelr.grid(row = 2, column = 1, padx = 10, pady = 10)
 
 # display result output
 labeld = Label(window, text = "", font = ("Tahoma", 14.5, "Bold"), bg = "536878", fg = "F0FFFF", justify = CENTER)
