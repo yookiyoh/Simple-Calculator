@@ -74,6 +74,9 @@ def exit_program():
     messagebox.showinfo('Message', 'Thank you for using this program!')
 
 # create an instance for tkinter window
+window = tk.Tk()
+window.title("Simple Calculator")   # set title for the window
+window.config(bg = "#E0FFFF")
 
 # create label for first number
 
