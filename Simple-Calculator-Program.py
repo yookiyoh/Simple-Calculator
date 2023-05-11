@@ -99,6 +99,8 @@ labelr = Label(window, text = "Result: ", font = ("Stylus", 15, "Bold"), bg = "5
 labelr.grid(row = 2, column = 2)
 
 # display result output
+labeld = Label(window, text = "", font = ("Tahoma", 14.5, "Bold"), bg = "536878", fg = "F0FFFF", justify = CENTER)
+labeld.grid(row = 2, column = 2)
 
 # create button for addition operation
 
