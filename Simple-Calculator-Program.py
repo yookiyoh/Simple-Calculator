@@ -123,6 +123,8 @@ button_clear = Button(window, text = "Clear", width = 10.5, font = ("Helvetica",
 button_clear.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # create button for reiteration
+button_reiterate = Button(window, text = "Try Again", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#ED7117", command = reiterate)
+button_reiterate.grid(row = 5, column = 1, padx = 5, pad= 20)
 
 # create button for program exit
 
