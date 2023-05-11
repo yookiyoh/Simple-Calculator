@@ -27,7 +27,7 @@ def addition_num():
         result = round(result, 4)
         label4.config(text = result)
     except:
-        messagebox.showerror('Error Detected', 'Error: Invalid input. Please enter a valid input')
+        messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic subtraction
 def subtraction_num():
@@ -35,6 +35,8 @@ def subtraction_num():
         result = float(num1.get()) - float(num2.get())
         result = round(result, 4)
         label4.config(text = result)
+    except:
+        messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic multiplication
 
