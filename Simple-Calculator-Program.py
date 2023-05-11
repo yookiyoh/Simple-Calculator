@@ -26,7 +26,7 @@ def addition_num():
         result = float(num1.get()) + float(num2.get())
         result = round(result, 4)
         label4.config(text = result)
-    except ValueError:
+    except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic subtraction
@@ -35,7 +35,7 @@ def subtraction_num():
         result = float(num1.get()) - float(num2.get())
         result = round(result, 4)
         label4.config(text = result)
-    except ValueError:
+    except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic multiplication
@@ -44,7 +44,7 @@ def multiplication_num():
         result = float(num1.get()) * float(num2.get())
         result = round(result, 4)
         label4.config(text = result)
-    except ValueError:
+    except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic division
@@ -53,9 +53,9 @@ def division_num():
         result = float(num1.get()) / float(num2.get())
         result = round(result, 4)
         label4.config(text = result)
-    except ZeroDivisionError:
+    except ZeroDivisionError:    # exception for zero division error
         messagebox.showerror('Error detected', 'Error: Cannot divide by zero')
-    except ValueError:
+    except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for clear input
