@@ -119,6 +119,8 @@ button_div = Button(window, text = "Divide", width = 10.5, font = ("Futura", 14,
 button_div.grid(row = 4, column = 2, padx = 5, pady = 5)
 
 # create button for clear content
+button_clear = Button(window, text = "Clear", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#FBEC5D", command = clear)
+button_clear.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # create button for reiteration
 
