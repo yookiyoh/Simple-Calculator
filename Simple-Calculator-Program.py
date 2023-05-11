@@ -95,6 +95,8 @@ num2 = Entry(window, font = ("Gotham Black", 14), fg = "F9E076", justify = CENTE
 num2.grid(row = 1, column = 2)
 
 # create label for Result
+labelr = Label(window, text = "Result: ", font = ("Stylus", 15, "Bold"), bg = "536878", fg = "F0FFFF")
+labelr.grid(row = 2, column = 2)
 
 # display result output
 
