@@ -79,6 +79,8 @@ window.title("Simple Calculator")   # set title for the window
 window.config(bg = "#E0FFFF")
 
 # create label for first number
+label1 = Label(window, text = "First Number: ", font = ("Verdana", 15.7, "Bold"), bg = "#536878", fg = "F0FFFF")
+label1.grid(row = 0, column = 1, padx = 10, pady = 10)
 
 # create textbox for first number input
 
