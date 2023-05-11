@@ -79,7 +79,7 @@ window.title("Simple Calculator")   # set title for the window
 window.config(bg = "#E0FFFF")
 
 # create label for first number
-label1 = Label(window, text = "First Number: ", font = ("Verdana", 15.7, "Bold"), bg = "#536878", fg = "F0FFFF")
+label1 = Label(window, text = "First Number: ", font = ("Arial", 15, "bold"), bg = "#536878", fg = "#007FFF")
 label1.grid(row = 0, column = 1, padx = 10, pady = 10)
 
 # create textbox for first number input
@@ -87,50 +87,51 @@ num1 = Entry(window, font = ("Gotham Black", 14), fg = "#F9E076", justify = CENT
 num1.grid(row = 0, column = 2)
 
 # create label for second number
-label2 = Label(window, text = "Second Number: ", font = ("Verdana", 15.7, "Bold"), bg = "#536878", fg = "#F0FFFF")
+label2 = Label(window, text = "Second Number: ", font = ("Arial", 15, "bold"), bg = "#536878", fg = "#007FFF")
 label2.grid(row = 1, column = 1, padx = 10)
 
 # create textbox for second number input
-num2 = Entry(window, font = ("Gotham Black", 14), fg = "F9E076", justify = CENTER)
+num2 = Entry(window, font = ("Courier", 14), fg = "#F9E076", justify = CENTER)
 num2.grid(row = 1, column = 2)
 
 # create label for Result
-labelr = Label(window, text = "Result: ", font = ("Stylus", 15, "Bold"), bg = "536878", fg = "F0FFFF")
+labelr = Label(window, text = "Result: ", font = ("Stylus", 15, "bold"), bg = "#536878", fg = "#007FFF")
 labelr.grid(row = 2, column = 1, padx = 10, pady = 10)
 
 # display result output
-labeld = Label(window, text = "", font = ("Tahoma", 14.5, "Bold"), bg = "536878", fg = "F0FFFF", justify = CENTER)
+labeld = Label(window, text = "", font = ("Tahoma", 15, "bold"), bg = "#536878", fg = "#007FFF", justify = CENTER)
 labeld.grid(row = 2, column = 2)
 
 # create button for addition operation
-button_add = Button(window, text = "Add", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = addition_num)
+button_add = Button(window, text = "Add", width = 11, font = ("Futura", 14, "bold"), bg = "#BDA55D", command = addition_num)
 button_add.grid(row = 3, column = 1, padx= 15, pady = 5)
 
 # create button for subtraction operation
-button_sub = Button(window, text = "Subtract", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = subtraction_num)
+button_sub = Button(window, text = "Subtract", width = 11, font = ("Futura", 14, "bold"), bg = "#BDA55D", command = subtraction_num)
 button_sub.grid(row = 3, column = 2, padx = 5, pady = 5)
 
 # create button for multiplication operation
-button_mul = Button(window, text = "Multiply", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = multiplication_num)
+button_mul = Button(window, text = "Multiply", width = 11, font = ("Futura", 14, "bold"), bg = "#BDA55D", command = multiplication_num)
 button_mul.grid(row = 4, column = 1, padx = 5, pady = 5)
 
 # create button for division operation
-button_div = Button(window, text = "Divide", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = division_num)
+button_div = Button(window, text = "Divide", width = 11, font = ("Futura", 14, "bold"), bg = "#BDA55D", command = division_num)
 button_div.grid(row = 4, column = 2, padx = 5, pady = 5)
 
 # create button for clear content
-button_clear = Button(window, text = "Clear", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#FBEC5D", command = clear)
+button_clear = Button(window, text = "Clear", width = 11, font = ("Helvetica", 12, "bold"), bg = "#FBEC5D", command = clear)
 button_clear.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # create button for reiteration
-button_reiterate = Button(window, text = "Try Again", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#ED7117", command = reiterate)
+button_reiterate = Button(window, text = "Try Again", width = 11, font = ("Helvetica", 12, "bold"), bg = "#ED7117", command = reiterate)
 button_reiterate.grid(row = 5, column = 1, padx = 5, pady= 20)
 
 # create button for program exit
-button_exit = Button(window, text = "Exit", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#E3242B", command = exit_program)
+button_exit = Button(window, text = "Exit", width = 11, font = ("Helvetica", 12, "bold"), bg = "#E3242B", command = exit_program)
 button_exit.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # insertion of mainloop in running GUI window
 window.mainloop()
 
 # trial testing
+# omissions and remodifications of coding elements
