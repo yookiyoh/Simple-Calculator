@@ -132,3 +132,5 @@ button_exit.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # insertion of mainloop in running GUI window
 window.mainloop()
+
+# trial testing
