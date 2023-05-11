@@ -59,6 +59,9 @@ def division_num():
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for clear input
+def clear():
+    num1.delete(0, tk.END)
+    num2.delete(0, tk.END)
 
 # define function for reiteration
 
