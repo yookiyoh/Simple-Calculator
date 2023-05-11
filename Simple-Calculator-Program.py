@@ -124,9 +124,11 @@ button_clear.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # create button for reiteration
 button_reiterate = Button(window, text = "Try Again", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#ED7117", command = reiterate)
-button_reiterate.grid(row = 5, column = 1, padx = 5, pad= 20)
+button_reiterate.grid(row = 5, column = 1, padx = 5, pady= 20)
 
 # create button for program exit
+button_exit = Button(window, text = "Exit", width = 10.5, font = ("Helvetica", 12, "Bold"), bg = "#E3242B", command = exit_program)
+button_exit.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # insertion of mainloop in running GUI window
 
