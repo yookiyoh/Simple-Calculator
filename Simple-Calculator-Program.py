@@ -83,6 +83,8 @@ label1 = Label(window, text = "First Number: ", font = ("Verdana", 15.7, "Bold")
 label1.grid(row = 0, column = 1, padx = 10, pady = 10)
 
 # create textbox for first number input
+num1 = Entry(window, font = ("Gotham Black", 14), fg = "#F9E076", justify = CENTER)
+num1.grid(row = 0, column = 2)
 
 # create label for second number
 
