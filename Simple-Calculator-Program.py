@@ -30,6 +30,11 @@ def addition_num():
         messagebox.showerror('Error Detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic subtraction
+def subtraction_num():
+    try:
+        result = float(num1.get()) - float(num2.get())
+        result = round(result, 4)
+        label4.config(text = result)
 
 # define function for arithmetic multiplication
 
