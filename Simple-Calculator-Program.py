@@ -69,6 +69,9 @@ def reiterate():
     messagebox.showinfo('Retry', 'Please input new values for arithmetic calculations')
 
 # define function for program exit
+def exit_program():
+    window.destroy()
+    messagebox.showinfo('Message', 'Thank you for using this program!')
 
 # create an instance for tkinter window
 
