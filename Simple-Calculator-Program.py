@@ -16,7 +16,8 @@
 # Pseudocode
 
 # import necessary libraries or modules
-# import tkinter for GUI
+import tkinter as tk   # import tkinter for GUI
+
 # import messagebox for the error message
 # define function for arithmetic addition
 # define function for arithmetic subtraction
