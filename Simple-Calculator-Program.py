@@ -17,8 +17,8 @@
 
 # import necessary libraries or modules
 import tkinter as tk   # import tkinter for GUI
-
-# import messagebox for the error message
+from tkinter import *
+from tkinter import messagebox   # import messagebox for the error message
 
 # define function for arithmetic addition
 
