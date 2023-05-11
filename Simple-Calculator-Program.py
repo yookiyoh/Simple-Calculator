@@ -64,6 +64,9 @@ def clear():
     num2.delete(0, tk.END)
 
 # define function for reiteration
+def reiterate():
+    clear()
+    messagebox.showinfo('Retry', 'Please input new values for arithmetic calculations')
 
 # define function for program exit
 
