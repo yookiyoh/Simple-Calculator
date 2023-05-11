@@ -48,7 +48,12 @@ def multiplication_num():
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
 # define function for arithmetic division
-
+def division_num():
+    try:
+        result = float(num1.get()) / float(num2.get())
+        result = round(result, 4)
+        label4.config(text = result)
+    
 # define function for clear input
 
 # define function for reiteration
