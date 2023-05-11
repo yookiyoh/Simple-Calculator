@@ -107,6 +107,8 @@ button_add = Button(window, text = "Add", width = 10.5, font = ("Futura", 14, "B
 button_add.grid(row = 3, column = 1, padx= 15, pady = 5)
 
 # create button for subtraction operation
+button_sub = Button(window, text = "Subtract", width = 10.5, font = ("Futura", 14, "Bold"), bg = "#BDA55D", command = subtraction_num)
+button_sub.grid(row = 3, column = 2, padx = 5, pady = 5)
 
 # create button for multiplication operation
 
