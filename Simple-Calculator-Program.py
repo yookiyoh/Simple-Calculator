@@ -25,7 +25,7 @@ def addition_num():
     try:
         result = float(num1.get()) + float(num2.get())
         result = round(result, 4)
-        label4.config(text = result)
+        labeld.config(text = result)
     except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
@@ -34,7 +34,7 @@ def subtraction_num():
     try:
         result = float(num1.get()) - float(num2.get())
         result = round(result, 4)
-        label4.config(text = result)
+        labeld.config(text = result)
     except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
@@ -43,7 +43,7 @@ def multiplication_num():
     try:
         result = float(num1.get()) * float(num2.get())
         result = round(result, 4)
-        label4.config(text = result)
+        labeld.config(text = result)
     except ValueError:   # exception for value error
         messagebox.showerror('Error detected', 'Error: Invalid input. Please enter a valid input')
 
@@ -52,7 +52,7 @@ def division_num():
     try:
         result = float(num1.get()) / float(num2.get())
         result = round(result, 4)
-        label4.config(text = result)
+        labeld.config(text = result)
     except ZeroDivisionError:    # exception for zero division error
         messagebox.showerror('Error detected', 'Error: Cannot divide by zero')
     except ValueError:   # exception for value error
