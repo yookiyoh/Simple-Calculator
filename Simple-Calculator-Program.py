@@ -87,6 +87,8 @@ num1 = Entry(window, font = ("Gotham Black", 14), fg = "#F9E076", justify = CENT
 num1.grid(row = 0, column = 2)
 
 # create label for second number
+label2 = Label(window, text = "Second Number: ", font = ("Verdana", 15.7, "Bold"), bg = "#536878", fg = "#F0FFFF")
+label2.grid(row = 1, column = 1, padx = 10)
 
 # create textbox for second number input
 
