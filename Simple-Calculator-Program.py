@@ -3,17 +3,6 @@
 # Object-Oriented Programming | Assignment 5
 # Simple Calculator Program
 
-# General Instructions
-
-# 1: The application will ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, and Division)
-# 2: The application will ask the user for two numbers
-# 3: Display the result
-# 4: The application will ask is the user wants to try again or not
-# 5: If yes, repeat Step 1
-# 6: If no, display "Thank you!" and the program will exit
-# 7: Use Python Function and appropriate Exceptions to capture errors during runtime
-
-# Pseudocode
 
 # import necessary libraries or modules
 import tkinter as tk   # import tkinter for GUI
@@ -140,8 +129,3 @@ button_exit.grid(row = 6, column = 1, padx = 5, pady = 15)
 
 # insertion of mainloop in running GUI window
 window.mainloop()
-
-# trial testing
-# omissions and remodifications of coding elements
-# re-editing codes
-# testing was successful
